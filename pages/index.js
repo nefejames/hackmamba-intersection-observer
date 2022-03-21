@@ -17,7 +17,7 @@ export default function Home() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="w-full h-full flex flex-col justify-center items-center text-center pt-10 bg-zinc-900">
+    <div className="w-full h-full flex flex-col justify-center items-center text-center pt-10 bg-zinc-900 relative">
       <Head>
         <title>Next.js Intersection Observer</title>
       </Head>
@@ -49,6 +49,10 @@ export default function Home() {
           )}
         </InView>
       ))}
+
+      <h2 className="text-4xl font-bold text-white mb-16 fixed top-10 right-10">
+        Impression Count: {count}
+      </h2>
     </div>
   );
 }
