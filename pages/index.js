@@ -29,7 +29,7 @@ export default function Home() {
       {Array.from(Array(20).keys()).map((i) => (
         <InView
           key={i}
-          threshold={1}
+          threshold={0.6}
           onChange={(inView) => ImpressionCounter(inView, i, count, setCount)}
         >
           {({ ref, inView }) => (
@@ -40,7 +40,11 @@ export default function Home() {
                 height={400}
                 alt="something amazing"
               />
-              <p className="text-white text-lg">{`Image in view? ${inView} `}</p>
+              <p
+                className={`text-white text-2xl font-bold ${
+                  inView ? "text-green-600" : "text-red-600"
+                }`}
+              >{`Image in view? ${inView} `}</p>
             </div>
           )}
         </InView>
