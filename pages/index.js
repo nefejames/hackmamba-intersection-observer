@@ -27,7 +27,7 @@ export default function Home() {
         Impression Count: {count}
       </h2>
 
-      {Array.from(Array(20).keys()).map((i) => (
+      {Array.from(Array(3).keys()).map((i) => (
         <p className="text-white text-2xl mb-16" key={i}>
           Irure pariatur velit est anim ipsum anim aliquip officia velit
           consectetur. Duis sint ut consectetur ea anim. Sit proident culpa
@@ -44,22 +44,7 @@ export default function Home() {
           laborum officia cupidatat adipisicing et reprehenderit. Cillum nostrud
           commodo dolor eiusmod sit tempor. Duis veniam ipsum tempor velit irure
           esse non duis esse deserunt incididunt. Proident ipsum ut sunt ea
-          laborum ipsum dolore incididunt consectetur aliqua sit. Duis deserunt
-          nisi voluptate magna cupidatat tempor exercitation sint adipisicing
-          duis culpa. Aute excepteur cupidatat labore veniam ad sunt culpa
-          pariatur. Nostrud dolor ut culpa nulla officia. Ad eu amet magna
-          commodo esse eiusmod ullamco adipisicing. Aliqua ullamco duis Lorem
-          minim cupidatat eu fugiat eu nisi magna esse in. Veniam aute cupidatat
-          mollit aliquip aliqua esse incididunt anim. Occaecat nostrud
-          reprehenderit Lorem et reprehenderit in. Ipsum do laboris incididunt
-          commodo labore culpa irure nulla duis incididunt anim. Adipisicing et
-          occaecat reprehenderit officia ullamco fugiat dolore mollit ipsum
-          cillum nostrud ex. Do reprehenderit pariatur ipsum aute ullamco aliqua
-          duis nulla non irure. Incididunt occaecat quis qui proident non est
-          cupidatat nulla cupidatat anim. Incididunt voluptate sunt amet anim
-          laboris deserunt mollit ipsum esse exercitation. Ullamco incididunt
-          consequat aute culpa consectetur officia ipsum ea do eu ad. Cillum
-          aliqua veniam laborum dolore in nisi.
+          laborum ipsum dolore incididunt consectetur aliqua sit.
         </p>
       ))}
 
@@ -97,26 +82,7 @@ export default function Home() {
           nostrud incididunt enim dolore elit pariatur quis in proident enim
           elit. Veniam culpa nulla aliquip exercitation occaecat magna. Eiusmod
           tempor consectetur et eiusmod deserunt adipisicing irure nulla.
-          Nostrud nisi dolore reprehenderit exercitation amet consectetur non
-          laborum officia cupidatat adipisicing et reprehenderit. Cillum nostrud
-          commodo dolor eiusmod sit tempor. Duis veniam ipsum tempor velit irure
-          esse non duis esse deserunt incididunt. Proident ipsum ut sunt ea
-          laborum ipsum dolore incididunt consectetur aliqua sit. Duis deserunt
-          nisi voluptate magna cupidatat tempor exercitation sint adipisicing
-          duis culpa. Aute excepteur cupidatat labore veniam ad sunt culpa
-          pariatur. Nostrud dolor ut culpa nulla officia. Ad eu amet magna
-          commodo esse eiusmod ullamco adipisicing. Aliqua ullamco duis Lorem
-          minim cupidatat eu fugiat eu nisi magna esse in. Veniam aute cupidatat
-          mollit aliquip aliqua esse incididunt anim. Occaecat nostrud
-          reprehenderit Lorem et reprehenderit in. Ipsum do laboris incididunt
-          commodo labore culpa irure nulla duis incididunt anim. Adipisicing et
-          occaecat reprehenderit officia ullamco fugiat dolore mollit ipsum
-          cillum nostrud ex. Do reprehenderit pariatur ipsum aute ullamco aliqua
-          duis nulla non irure. Incididunt occaecat quis qui proident non est
-          cupidatat nulla cupidatat anim. Incididunt voluptate sunt amet anim
-          laboris deserunt mollit ipsum esse exercitation. Ullamco incididunt
-          consequat aute culpa consectetur officia ipsum ea do eu ad. Cillum
-          aliqua veniam laborum dolore in nisi.
+          Nostrud nisi dolore reprehenderit exercitation amet consectetur
         </p>
       ))}
     </div>
